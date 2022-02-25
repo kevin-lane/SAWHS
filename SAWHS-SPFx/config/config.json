@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sawhs-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sawhs/SawhsWebPart.js",
+          "manifest": "./src/webparts/sawhs/SawhsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SawhsWebPartStrings": "lib/webparts/sawhs/loc/{locale}.js"
+  }
+}
